@@ -5,8 +5,10 @@
 // export class using module.exports
 import React from "react";
 import ReactDom from "react-dom";
-import shape from "./shape.js";
+import Shape from "./Shape.js";
 
-class circle extends shape {
+class Circle extends shape {
   calculateArea() {}
 }
+
+export default Circle;
