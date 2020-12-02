@@ -5,7 +5,7 @@ import "React ,{Component}" from React;
 import "react-dom" from ReactDOM;
 
 class Shape extends Component {
-   color ;
+   color = "red" ;
    constructor(colorName){
       this.color = colorName;
    }
