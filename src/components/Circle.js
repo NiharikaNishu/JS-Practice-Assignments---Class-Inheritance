@@ -7,8 +7,11 @@ import React from "react";
 import ReactDom from "react-dom";
 import Shape from "./Shape.js";
 
-class Circle extends shape {
-  calculateArea() {}
+class Circle extends Shape {
+  calculateArea() {
+    console.log("NewArea");
+    return null;
+  }
 }
 
 export default Circle;

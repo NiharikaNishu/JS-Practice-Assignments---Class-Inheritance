@@ -5,12 +5,19 @@ import "React ,{Component}" from React;
 import "react-dom" from ReactDOM;
 
 class Shape extends Component {
-   const drawShape : drawShape(){
-      return this.drawShape;
+   color ;
+   constructor(colorName){
+      this.color = colorName;
    }
-   const calculateArea : calculateArea(){
-     return this.calculateArea;
+    drawShape(){
+      console.log("this is drawShape");
+      return null;
    }
+    calculateArea(){
+      console.log("this is calculateArea");
+     return null;
+   }
+   
 }
 
 export default Shape;
