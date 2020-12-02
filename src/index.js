@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./components/Shape";
+import App from "./components/Circle";
 
-ReactDOM.render(<Shape />, document.getElementById("root"));
+ReactDOM.render(<Circle />, document.getElementById("root"));
