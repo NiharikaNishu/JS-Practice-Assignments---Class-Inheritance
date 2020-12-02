@@ -18,4 +18,4 @@ class Shape extends Component {
   }
 }
 
-export default Shape;
+module.exports default Shape;
