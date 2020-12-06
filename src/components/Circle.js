@@ -3,8 +3,8 @@
 // declare class
 
 // export class using module.exports
-import using require React from "react";
-import using require Shape from "./Shape.js";
+require React from "react";
+require Shape from "./Shape.js";
 
 class Circle extends Shape {
   calculateArea() {
@@ -17,4 +17,4 @@ class Circle extends Shape {
   }
 }
 
-export module.exports default Circle;
+module.exports default Circle;

@@ -1,7 +1,7 @@
 // declare class
 
 // export class using module.exports
-import { Component } from "react";
+require { Component } from "react";
 
 class Shape extends Component {
   constructor(colorName) {
@@ -18,4 +18,4 @@ class Shape extends Component {
   }
 }
 
-export module.exports default Shape;
+module.exports default Shape;
