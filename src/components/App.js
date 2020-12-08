@@ -1,13 +1,13 @@
 import React, { Component, useState } from "react";
 import "../styles/App.css";
-import circle from "./circle";
-import shape from "./shape";
+import Circle from "./circle";
+import Shape from "./shape";
 class App extends Component {
   render() {
     return (
       <>
-        <circle />
-        <shape />
+        <Circle />
+        <Shape />
       </>
     );
   }
